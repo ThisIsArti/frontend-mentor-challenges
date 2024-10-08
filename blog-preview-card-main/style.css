@@ -14,6 +14,11 @@
 body {
   background: rgb(244, 208, 78);
   padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 img {
@@ -29,8 +34,8 @@ img {
   border: 0.5px solid black;
   box-shadow: 8px 8px 0px #000;
   position: absolute;
-  top: 50%;
-  transform: translate(50%, -50%);
+  /*   top: 50%;
+  transform: translate(50%, -50%); */
   width: 17%;
 }
 
@@ -83,6 +88,8 @@ h1:hover {
 }
 
 .name {
+  display: flex;
+  align-items: center;
   font-weight: 800;
   font-size: 12px;
 }

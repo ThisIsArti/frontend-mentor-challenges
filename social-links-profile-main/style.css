@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap")
+  /* || RESET */ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* FONTS */
+  --FF: "Outfit", sans-serif;
+  --FONT-SIZE: 14px;
+  --FONT-WEIGHT-BOLD: 700;
+  --FONT-WEIGHT-MED: 600;
+  --FONT-WEIGHT-REG: 400;
+  --TITLE-FONT-SIZE: 1rem;
+
+  /* COLORS */
+  --GREEN: hsl(75, 94%, 57%);
+  --WHITE: hsl(0, 0%, 100%);
+  --GREY-700: hsl(0, 0%, 20%);
+  --GREY-800: hsl(0, 0%, 12%);
+  --GREY-900: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--GREY-900);
+}
